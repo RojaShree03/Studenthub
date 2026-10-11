@@ -11,10 +11,10 @@ import {
     UserRound,
 } from "lucide-react";
 
-import { useStudents } from "../../../context/StudentContext";
-import StudentForm from "../components/StudentForm";
-import StudentDeleteDialog from "../components/StudentDeleteDialog";
-import ManagedStudentCard from "../components/ManagedStudentCard";
+import { useStudents } from "../../../context/StudentContext.jsx";
+import StudentForm from "../components/studentForm.jsx";
+import StudentDeleteDialog from "../components/StudentDeleteDialog.jsx";
+import ManagedStudentCard from "../components/ManagedStudentcard.jsx";
 import "../styles/student-management.css";
 
 export default function StudentManagementPage() {
